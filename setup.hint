@@ -1,0 +1,4 @@
+category: Gnome Perl Web
+requires: cygwin glib2 gtk2-x11 perl perl-Glib perl-Gtk2 webkit
+sdesc: "Perl WebKit/GTK+ bindings"
+ldesc: "Perl bindings for the WebKit/GTK+ browser engine."
