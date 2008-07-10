@@ -1,0 +1,2 @@
+CPAN_AUTHOR=flora
+inherit gtk2-perl

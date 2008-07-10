@@ -3,18 +3,18 @@ perl-Gtk2-WebKit
 Perl bindings for the WebKit/GTK+ browser engine.
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.5.25-15
   glib2-2.16.3-1
-  gtk2-x11-2.12.9-1
-  perl-5.10.0-3
-  perl-Glib-1.182-1
-  perl-Gtk2-1.182-1
-  webkit-0.1.34279-1
+  gtk2-x11-2.12.10-1
+  perl-5.10.0-4
+  perl-Glib-1.183-1
+  perl-Gtk2-1.183-1
+  webkit-1.0.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080523-1
-  cygport-0.3.11-1
+  cygport-0.3.12-1
   gcc-core-3.4.4-3
   make-3.81-1
   perl-ExtUtils-Depends-0.300-1
@@ -29,15 +29,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gtk2-WebKit-0.01-X-src.tar.bz2
+  unpack perl-Gtk2-WebKit-0.02-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Gtk2-WebKit-0.01-X.cygport all
+  cygport ./perl-Gtk2-WebKit-0.02-X.cygport all
 
 This will create:
-  /usr/src/perl-Gtk2-WebKit-0.01-X-src.tar.bz2
-  /usr/src/perl-Gtk2-WebKit-0.01-X.tar.bz2
+  /usr/src/perl-Gtk2-WebKit-0.02-X-src.tar.bz2
+  /usr/src/perl-Gtk2-WebKit-0.02-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,13 +49,16 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/Install/webkit.typemap
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/WebKit/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/WebKit/WebKit.dll
-  /usr/share/doc/perl-Gtk2-WebKit-0.01/Changes
-  /usr/share/doc/perl-Gtk2-WebKit-0.01/README
+  /usr/share/doc/perl-Gtk2-WebKit-0.02/Changes
+  /usr/share/doc/perl-Gtk2-WebKit-0.02/README
   /usr/share/man/man3/Gtk2.WebKit.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 0.02-1 -----
+Version bump.
 
 ----- version 0.01-1 -----
 Initial release for Cygwin.
