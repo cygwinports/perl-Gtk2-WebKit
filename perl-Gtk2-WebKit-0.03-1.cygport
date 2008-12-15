@@ -1,2 +1,4 @@
 CPAN_AUTHOR=flora
 inherit gtk2-perl
+
+PATCH_URI="0.03-use-prereqs.patch"

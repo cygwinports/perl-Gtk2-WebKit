@@ -4,21 +4,21 @@ Perl bindings for the WebKit/GTK+ browser engine.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  glib2-2.16.3-1
-  gtk2-x11-2.12.10-1
-  perl-5.10.0-4
-  perl-Glib-1.183-1
-  perl-Gtk2-1.183-1
-  webkit-1.0.1-1
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.5-1
+  libwebkit1.0_1-1.0.3.39090-1
+  perl-5.10.0-5
+  perl-Glib-1.200-1
+  perl-Gtk2-1.202-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080523-1
-  cygport-0.3.12-1
+  binutils-20080624-2
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-ExtUtils-Depends-0.300-1
-  perl-ExtUtils-PkgConfig-1.11-1
+  perl-ExtUtils-Depends-0.301-1
+  perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical website:
   http://search.cpan.org/dist/Gtk2-WebKit/
@@ -29,33 +29,51 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gtk2-WebKit-0.02-X-src.tar.bz2
+  unpack perl-Gtk2-WebKit-0.03-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Gtk2-WebKit-0.02-X.cygport all
+  cygport ./perl-Gtk2-WebKit-0.03-X.cygport all
 
 This will create:
-  /usr/src/perl-Gtk2-WebKit-0.02-X-src.tar.bz2
-  /usr/src/perl-Gtk2-WebKit-0.02-X.tar.bz2
+  /usr/src/perl-Gtk2-WebKit-0.03-X-src.tar.bz2
+  /usr/src/perl-Gtk2-WebKit-0.03-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/Install/Files.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/Install/webkit-autogen.h
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/Install/webkit.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/NetworkRequest.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/WebBackForwardList.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/WebFrame.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/WebHistoryItem.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/WebSettings.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/WebView.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gtk2/WebKit/index.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/WebKit/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/WebKit/WebKit.dll
-  /usr/share/doc/perl-Gtk2-WebKit-0.02/Changes
-  /usr/share/doc/perl-Gtk2-WebKit-0.02/README
+  /usr/share/doc/perl-Gtk2-WebKit-0.03/Changes
+  /usr/share/doc/perl-Gtk2-WebKit-0.03/README
   /usr/share/man/man3/Gtk2.WebKit.3pm.gz
+  /usr/share/man/man3/Gtk2.WebKit.NetworkRequest.3pm.gz
+  /usr/share/man/man3/Gtk2.WebKit.WebBackForwardList.3pm.gz
+  /usr/share/man/man3/Gtk2.WebKit.WebFrame.3pm.gz
+  /usr/share/man/man3/Gtk2.WebKit.WebHistoryItem.3pm.gz
+  /usr/share/man/man3/Gtk2.WebKit.WebSettings.3pm.gz
+  /usr/share/man/man3/Gtk2.WebKit.WebView.3pm.gz
+  /usr/share/man/man3/Gtk2.WebKit.index.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 0.03-1 -----
+Version bump.
 
 ----- version 0.02-1 -----
 Version bump.
