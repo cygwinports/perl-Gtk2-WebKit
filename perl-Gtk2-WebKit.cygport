@@ -1,0 +1,9 @@
+CPAN_AUTHOR=flora
+inherit gtk2-perl
+
+NAME="perl-Gtk2-WebKit"
+VERSION=0.08
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl WebKit/GTK+ bindings"
+DESCRIPTION="Perl bindings for the WebKit/GTK+ browser engine."

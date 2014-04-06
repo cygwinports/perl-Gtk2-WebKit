@@ -1,4 +1,0 @@
-category: Gnome Perl
-requires: libglib2.0_0 libgtk2.0_0 libssp0 libwebkit1.0_2 perl perl-Glib perl-Gtk2
-sdesc: "Perl WebKit/GTK+ bindings"
-ldesc: "Perl bindings for the WebKit/GTK+ browser engine."
