@@ -2,7 +2,7 @@ CPAN_AUTHOR=flora
 inherit gtk2-perl
 
 NAME="perl-Gtk2-WebKit"
-VERSION=0.08
+VERSION=0.09
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl WebKit/GTK+ bindings"
