@@ -3,7 +3,7 @@ inherit gtk2-perl
 
 NAME="perl-Gtk2-WebKit"
 VERSION=0.09
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl WebKit/GTK+ bindings"
 DESCRIPTION="Perl bindings for the WebKit/GTK+ browser engine."
